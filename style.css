@@ -1,0 +1,144 @@
+/*.bg-paralax-1{
+background: url('https://data.ukiyo-e.org/mfa/images/sc133747.jpg')
+}
+.bg-paralax-2{
+background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg')
+}*/
+.navbar{
+    background-color:transparent;
+}
+body{
+    background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg');
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+.sec-about{
+    margin-top: 150px;
+}
+
+/*Font Styles*/
+
+.lobster{
+    font-family:'Lobster', cursive;
+    font-size: 50px;
+}
+.lobster2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+}
+.lobster-alt{
+    font-family:'Lobster', cursive;
+    font-size: 30px
+}
+.stroke{    
+    -webkit-text-stroke: 1px white;   
+    text-shadow:
+         1px 1px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/*Card styles*/
+
+.card{
+    background-color:rgba(225, 225, 225, 0.8);
+    padding:20px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    width: 200px;
+}
+.card:hover{
+    background-color:white;
+    
+}
+.cardAbout{
+    background-color:white;
+    padding:100px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    transform-style:preserve-3d;
+    transition: all 0.6s ease;
+}
+.cardAbout:hover{
+    background-color:white;
+    padding:100px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    transform: rotateY(180deg);
+}
+.cardProjects{
+    background-color:rgba(225, 225, 225, 0.8);
+    padding:20px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    width: 600px;
+}
+.cardProjects:hover{
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 33, 86, .8));
+    color: white;
+}
+.cardContact{
+    background-color:white;
+    padding:20px;
+    border-radius:4px;
+    margin: 15px;
+    box-shadow: 1px 1px 3px black;
+    width: 250px;
+}
+.back{
+    transform: rotateY(180deg);    
+}
+.front, .back{
+    backface-visibility: hidden;
+}
+
+/*Flex box*/
+
+.flexAbout{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.flexSkills{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.flexProjects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.flexProjects h4{ 
+    background-color:rgba(225, 225, 225, 0.3);
+    width: 85px;
+    border: 1px solid white;
+}
+.flexContact{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.flexWords{
+    display: flex;
+    justify-content: center;
+}
+
+/*Buttons*/
+
+.projectsButton{
+    font-family:'Lobster', cursive;
+    background-color:rgba(225, 225, 225, 0.3);
+    width: 400px;
+    border: 1px solid white;
+    color:black;
+}
+

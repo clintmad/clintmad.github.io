@@ -58,7 +58,10 @@ body{
 }
 .cardAbout{
     background-color:white;
-    padding:100px;
+    width: 300px;
+    padding-top:20px;
+    padding-left:50px;
+    padding-right:50px;
     border-radius:4px;
     margin: 15px;
     box-shadow: 1px 1px 3px black;
@@ -67,7 +70,7 @@ body{
 }
 .cardAbout:hover{
     background-color:white;
-    padding:100px;
+    padding: 10px;
     border-radius:4px;
     margin: 15px;
     box-shadow: 1px 1px 3px black;
@@ -105,7 +108,7 @@ body{
 .flexAbout{
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:center;
 }
 .flexSkills{
     display:flex;

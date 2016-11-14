@@ -8,7 +8,7 @@ background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg'
     background-color:transparent;
 }
 body{
-    background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg');
+    background: url('img/background.jpg');
     background-size: 100% 100%;    
     background-repeat: no-repeat;
     background-attachment:fixed;

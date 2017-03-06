@@ -1,42 +1,79 @@
-/*.bg-paralax-1{
-background: url('https://data.ukiyo-e.org/mfa/images/sc133747.jpg')
+html, body {
+  height: 100%;
 }
-.bg-paralax-2{
-background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg')
-}*/
 .navbar{
     background-color:transparent;
 }
-body{
-    background: url('img/background.jpg');
-    background-size: 100% 100%;    
-    background-repeat: no-repeat;
+.flag {
+    height: 100%;
+    width:100%;
+    background-image: url("img/patriotic-flag.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sec-heading {    
+    padding-top: 350px;
+    height: 100%;
+    width:100%;
+    background-size: cover;
+}
+.sec-about {
+    padding: 40px 40px 100px 40px;
+    background-image: url("img/scorpion.jpg");
     background-attachment:fixed;
-    background-position:center;
+    background-size: cover;
+    
 }
-.sec-about{
-    margin-top: 150px;
-    padding-bottom: 400px;
+.sec-skills{
+    padding: 40px 40px 100px 40px;
+    background-image: url("img/patriotic-flag.jpg");
+    background-attachment:fixed;
+    background-size: cover;
 }
+.sec-projects{
+    padding: 40px 40px 100px 40px;
+    background-image: url("img/codebackground.jpg");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.sec-contact{
+    padding: 40px 40px 40px 40px;
+    background-image: url("img/patriotic-flag.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+}
+
 
 /*Font Styles*/
 
+.about-p{
+    font-family:'Lobster Two', cursive;
+    color: white;
+    font-size: 30px;
+}
 .lobster{
     font-family:'Lobster', cursive;
-    font-size: 50px;
+    font-size: 75px;
+    color:white;
 }
 .lobster2{
     font-family: 'Lobster Two', cursive;
     font-size: 20px;
+    color:white;
 }
 .lobster-alt{
     font-family:'Lobster', cursive;
-    font-size: 30px
+    font-size: 45px;
+    color:white;
+}
+.lobster3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
 }
 .stroke{    
     -webkit-text-stroke: 1px white;   
     text-shadow:
-         1px 1px 0 #000,
+         2px 2px 0 #000,
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
@@ -57,7 +94,7 @@ body{
     background-color:white;
     
 }
-.cardAbout{
+/*.cardAbout{
    background-color:white;
     width: 300px;
 	height: 350px;
@@ -77,13 +114,13 @@ body{
   perspective: 1000;
 }
 
-	.flip:hover .flipper,  
-  .flip.hover .flipper {
-		-webkit-transform: rotateY(180deg);
-		-moz-transform: rotateY(180deg);
+.flip:hover .flipper,  
+.flip.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
-		transform: rotateY(180deg);
-	}
+	transform: rotateY(180deg);
+}
 
 .flipper {
 	
@@ -93,16 +130,16 @@ body{
 	-moz-transition: 0.6s;
 	-moz-transform-style: preserve-3d;
   
-  -o-transition: 0.6s;
+    -o-transition: 0.6s;
 	-o-transform-style: preserve-3d;
 
 	transition: 0.6s;
 	transform-style: preserve-3d;
 
 	position: relative;
-}
+}*/
 
-.front, .back {
+/*.front, .back {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -119,7 +156,7 @@ body{
 	-moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-}
+}*/
 
 .cardProjects{
     background-color:rgba(225, 225, 225, 0.8);

@@ -4,7 +4,7 @@ html, body {
 .navbar{
     background-color:transparent;
 }
-.flag {    
+.flag {
     height: 100%;
     width:100%;
     background-image: url("img/patriotic-flag.jpg");
@@ -26,14 +26,21 @@ html, body {
 }
 .sec-skills{
     padding: 40px 40px 100px 40px;
-    background: url('img/codebackground.jpg');
-    background-size: 100% 100%;    
-    background-repeat: no-repeat;
+    background-image: url("img/patriotic-flag.jpg");
     background-attachment:fixed;
-    background-position:center;
+    background-size: cover;
 }
 .sec-projects{
-    padding-bottom: 200px;
+    padding: 40px 40px 100px 40px;
+    background-image: url("img/codebackground.jpg");
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+.sec-contact{
+    padding: 40px 40px 40px 40px;
+    background-image: url("img/patriotic-flag.jpg");
+    background-attachment:fixed;
+    background-size: cover;
 }
 
 
@@ -87,7 +94,7 @@ html, body {
     background-color:white;
     
 }
-.cardAbout{
+/*.cardAbout{
    background-color:white;
     width: 300px;
 	height: 350px;
@@ -130,9 +137,9 @@ html, body {
 	transform-style: preserve-3d;
 
 	position: relative;
-}
+}*/
 
-.front, .back {
+/*.front, .back {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -149,7 +156,7 @@ html, body {
 	-moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-}
+}*/
 
 .cardProjects{
     background-color:rgba(225, 225, 225, 0.8);

@@ -1,19 +1,9 @@
-/*.bg-paralax-1{
-background: url('https://data.ukiyo-e.org/mfa/images/sc133747.jpg')
-}
-.bg-paralax-2{
-background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg')
-}*/
-.navbar{
-    background-color:transparent;
-}
-
-
 html, body {
   height: 100%;
 }
-
-
+.navbar{
+    background-color:transparent;
+}
 .flag {    
     height: 100%;
     width:100%;
@@ -34,13 +24,6 @@ html, body {
     background-size: cover;
     
 }
-.about-p{
-    font-family:'Lobster Two', cursive;
-    color: white;
-    font-size: 30px;
-}
-
-
 .sec-skills{
     padding: 40px 40px 100px 40px;
     background: url('img/codebackground.jpg');
@@ -56,6 +39,11 @@ html, body {
 
 /*Font Styles*/
 
+.about-p{
+    font-family:'Lobster Two', cursive;
+    color: white;
+    font-size: 30px;
+}
 .lobster{
     font-family:'Lobster', cursive;
     font-size: 75px;
@@ -71,15 +59,19 @@ html, body {
     font-size: 45px;
     color:white;
 }
-/*.stroke{    
+.lobster3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+}
+.stroke{    
     -webkit-text-stroke: 1px white;   
     text-shadow:
-         1px 1px 0 #000,
+         2px 2px 0 #000,
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
-}*/
+}
 
 /*Card styles*/
 

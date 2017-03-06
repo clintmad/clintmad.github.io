@@ -7,31 +7,69 @@ background: url('http://images.metmuseum.org/CRDImages/as/original/DP130155.jpg'
 .navbar{
     background-color:transparent;
 }
-body{
-    background: url('img/background.jpg');
+
+
+html, body {
+  height: 100%;
+}
+
+
+.flag {    
+    height: 100%;
+    width:100%;
+    background-image: url("img/patriotic-flag.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sec-heading {    
+    padding-top: 350px;
+    height: 100%;
+    width:100%;
+    background-size: cover;
+}
+.sec-about {
+    padding: 40px 40px 100px 40px;
+    background-image: url("img/scorpion.jpg");
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+.about-p{
+    font-family:'Lobster Two', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+
+.sec-skills{
+    padding: 40px 40px 100px 40px;
+    background: url('img/codebackground.jpg');
     background-size: 100% 100%;    
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-position:center;
 }
-.sec-about{
-    margin-top: 150px;
-    padding-bottom: 400px;
+.sec-projects{
+    padding-bottom: 200px;
 }
+
 
 /*Font Styles*/
 
 .lobster{
     font-family:'Lobster', cursive;
-    font-size: 50px;
+    font-size: 75px;
+    color:white;
 }
 .lobster2{
     font-family: 'Lobster Two', cursive;
     font-size: 20px;
+    color:white;
 }
 .lobster-alt{
     font-family:'Lobster', cursive;
-    font-size: 30px
+    font-size: 45px;
+    color:white;
 }
 .stroke{    
     -webkit-text-stroke: 1px white;   

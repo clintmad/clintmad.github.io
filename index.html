@@ -16,7 +16,7 @@
 	<nav class="navbar navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header brand">
-				<h2 class="stroke">マダリアガ</h2>
+				<h2 class="lobster-alt">Mad</h2>
 			</div>
 			<ul class="nav navbar-nav navbar-right lobster2">
 				<li><a href="#about">About</a></li>
@@ -28,11 +28,13 @@
 	</nav>
 	<!--Navigation bar ends-->
 
-	<div class="container-fluid">
-		<!--About section begins-->
-		<section id="about" class="sec-about text-center">
-			<h1 class="lobster stroke">About</h1>
-			<div class="flip" ontouchstart="this.classList.toggle('hover');">
+	<div class="container-fluid flag">
+		<!--Heading section begins-->
+		<section id="heading" class="row sec-heading text-center">
+			<h1 class="lobster">Clint Madariaga-Zittel</h1>
+			<h3 class="lobster-alt">Full Stack Developer</h3>
+
+			<!--<div class="flip" ontouchstart="this.classList.toggle('hover');">
 				<div class="flipper">
 					<div class="row flexAbout">
 						<div class="cardAbout front">
@@ -53,14 +55,50 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 		</section>
-		<!--About section ends-->
+		<!--Heading section ends-->
+		<section id="about" class="row sec-about">
+			<h1 class="lobster text-center">About</h1>
+			<div class="col-sm-12 text-right veteran">
+				<h3 class="lobster-alt">Veteran</h3>
+				<p class="about-p">I'm an Army veteran of 3 years with an active Secret Security clearance. I was stationed at JBLM in Washington as a 19K
+					(Armor Crewman), or tanker, where I was the gunner of the MGS (Mobile Gun System), having fun shooting big guns. After
+					being Honorably discharged I decided to pursue a career in Software Development.</p>
+			</div>
+			<div class="col-sm-12 text-center">
+				<h3 class="lobster-alt">Experience</h3>
+				<p class="about-p">Graduate of Boise Code Works, where I learned the basics of programming to include: JavaScript, HTML, and CSS. Briefly
+					educated in NodeJS and C#. I'm currently enrolled at Bellevue University where I'm learning Java.
+				</p>
+			</div>
+			<div class="col-sm-12 degrees">
+				<h3 class="lobster-alt">Degrees</h3>
+				<ul class="about-p">
+					<li>Bachelors of Science in Software Development - Bellevue University (in pursuit)</li>
+					<li>Full Stack Developers Certificate - Boise Code Works</li>
+					<li>Associates of Arts in Liberal Arts - College of Western Idaho</li>
+				</ul>
+			</div>
+
+		</section>
 
 		<!--Skills section begins-->
-		<section id="skills" class="sec-skills text-center">
+		<section id="skills" class="row sec-skills text-center">
 			<h1 class="lobster stroke">Skills</h1>
-			<div class="row text-center flexSkills rgba1 lobster2">
+			<div class=" text-center flexSkills rgba1 lobster2">
+				<div class="card">
+					<img class="center-block" width="165px" src="img/JSLogo.png" alt="jsLogo">
+					<h4>JS</h4>
+				</div>
+				<div class="card">
+					<img class="center-block " width="60px" src="img/javaLogo.png" alt="nodeLogo">
+					<h4>Java</h4>
+				</div>
+				<div class="card">
+					<img class="center-block " width="105px" src="img/node.png" alt="nodeLogo">
+					<h4>Node JS</h4>
+				</div>
 				<div class="card">
 					<img class="center-block " width="105px" src="img/HTMLLogo.png" alt="htmlLogo">
 					<h4>HTML</h4>
@@ -70,16 +108,8 @@
 					<h4>CSS</h4>
 				</div>
 				<div class="card">
-					<img class="center-block" width="165px" src="img/JSLogo.png" alt="jsLogo">
-					<h4>JS</h4>
-				</div>
-				<div class="card">
 					<img class="center-block" width="125px" src="img/BootstrapLogo.png" alt="bootstrapLogo">
 					<h4>Bootstrap</h4>
-				</div>
-				<div class="card">
-					<img class="center-block " width="105px" src="img/node.png" alt="nodeLogo">
-					<h4>Node JS</h4>
 				</div>
 			</div>
 		</section>
@@ -87,7 +117,7 @@
 
 		<!--Projects secion starts-->
 		<section id="projects" class="sec-projects text-center">
-			<h1 class="lobster stroke">Projects</h1>
+			<h1 class="lobster">Projects</h1>
 			<div class="row flexProjects">
 				<div class="cardProjects ">
 					<div class="thumbnail thumbnail-box">
@@ -109,10 +139,10 @@
 				</div>
 				<div class="cardProjects ">
 					<div class="thumbnail thumbnail-box">
-						<img src="img/iTunes.jpg" alt="">
+						<img src="img/whack-a-mole.png" alt="">
 					</div>
-					<h2 class="lobster-alt">Mad Music</h2>
-					<a href="https://clintmad.github.io/Itunes/?" class="btn" target="_blank">
+					<h2 class="lobster-alt">Whack-A-Mole</h2>
+					<a href="https://clintmad.github.io/whack-a-mole" class="btn" target="_blank">
 						<div class="flexWords">
 							<h3 class="projectsButton">View Project</h3>
 						</div>
@@ -124,7 +154,7 @@
 						<h4>JS</h4>
 						<h4>jQuery</h4>
 					</div>
-				</div>				
+				</div>
 			</div>
 		</section>
 		<!--Projects section ends-->

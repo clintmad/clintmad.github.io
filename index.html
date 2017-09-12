@@ -11,40 +11,53 @@
 </head>
 
 <body>
-	<!--
-		M     M      A      D D D
-		M M M M     A A     D    D
-		M  M  M    A   A    D     D
-		M     M   A  A  A   D    D
-		M     M  A       A  D D D
-	-->
 
 	<!--Navigation bar starts-->
 	<nav class="navbar navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header brand">
-				<h2 class="lobster-alt">Mad</h2>
+				<h2 class="lobster-alt stroke">Mad</h2>
 			</div>
-			<ul class="nav navbar-nav navbar-right lobster2">
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+			<ul class="nav navbar-nav navbar-right lobster2 stroke">
+				<li><a class="nav-button" href="#about">About</a></li>
+				<li><a class="nav-button" href="#skills">Skills</a></li>
+				<li><a class="nav-button" href="#projects">Projects</a></li>
+				<li><a class="nav-button" href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
 	<!--Navigation bar ends-->
 
 	<div class="container-fluid flag">
-
 		<!--Heading section begins-->
 		<section id="heading" class="row sec-heading text-center">
 			<h1 class="lobster stroke">Clint Madariaga-Zittel</h1>
 			<h3 class="lobster-alt stroke">Full Stack Developer</h3>
+
+			<!--<div class="flip" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="row flexAbout">
+						<div class="cardAbout front">
+							<img class="img-circle" src="img/mugshot.jpg" alt="">
+							<h2 class="lobster-alt">Clint Madariaga</h2>
+							<h3 class="lobster2">Full Stack Developer</h3>
+						</div>
+						<div class="cardAbout back">
+							<h2 class="lobster">Hello</h2>
+							<p class="">I'm a current student at Boise Code Works. I've spent the past three years in the U.S. Army and am currently working
+								towards advancing my skills in software development in pursuit of a career that will challenge me.
+							</p>
+							<a href="https://clintmad.github.io/resume/" class="btn" target="_blank">
+								<div class="lobster2">
+									<h3 id="resume">Resume</h3>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>-->
 		</section>
 		<!--Heading section ends-->
-
-		<!--About section begins-->
 		<section id="about" class="row sec-about">
 			<h1 class="lobster text-center">About</h1>
 			<div class="col-sm-12 text-right veteran">
@@ -56,7 +69,7 @@
 			<div class="col-sm-12 text-center">
 				<h3 class="lobster-alt">Experience</h3>
 				<p class="about-p">Graduate of Boise Code Works, where I learned the basics of programming to include: JavaScript, HTML, and CSS. Briefly
-					educated in NodeJS and C#. I'm currently enrolled at Bellevue University where I'm learning Java.
+					educated in NodeJS and C#. I'm currently enrolled at Bellevue University, in pursuit of my Bachelor's of Science in Software Development.
 				</p>
 			</div>
 			<div class="col-sm-12 degrees">
@@ -67,8 +80,8 @@
 					<li>Associates of Arts in Liberal Arts - College of Western Idaho</li>
 				</ul>
 			</div>
+
 		</section>
-		<!--About section ends-->
 
 		<!--Skills section begins-->
 		<section id="skills" class="row sec-skills text-center">
@@ -102,16 +115,16 @@
 		</section>
 		<!--Skills section ends-->
 
-		<!--Projects section starts-->
+		<!--Projects secion starts-->
 		<section id="projects" class="row sec-projects text-center">
 			<h1 class="lobster">Projects</h1>
 			<div class="flexProjects">
 				<div class="cardProjects ">
 					<div class="thumbnail thumbnail-box">
-						<img src="img/tactical.png" alt="">
+						<img src="img/random-quote.png" alt="">
 					</div>
-					<h2 class="lobster-alt">1X Tactical</h2>
-					<a href="http://1xtactical.com" class="btn" target="_blank">
+					<h2 class="lobster-alt">Random Quote Generator</h2>
+					<a href="https://clintmad.github.io/quotes/" class="btn" target="_blank">
 						<div class="flexWords">
 							<h3 class="projectsButton">View Project</h3>
 						</div>
@@ -121,7 +134,7 @@
 						<h4>CSS</h4>
 						<h4>Bootstrap</h4>
 						<h4>JS</h4>
-						<h4>NodeJS</h4>
+						<h4>JSON</h4>
 					</div>
 				</div>
 				<div class="cardProjects ">
@@ -137,7 +150,9 @@
 					<div class="flexWords lobster2">
 						<h4>HTML</h4>
 						<h4>CSS</h4>
+						<h4>Bootstrap</h4>
 						<h4>JS</h4>
+						<h4>jQuery</h4>
 					</div>
 				</div>
 			</div>
@@ -173,7 +188,6 @@
 			</div>
 		</section>
 		<!--Contact section ends-->
-
 	</div>
 </body>
 <!--

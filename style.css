@@ -1,6 +1,9 @@
 html, body {
   height: 100%;
 }
+.nav-button {
+    color: white;
+}
 .navbar{
     background-color:transparent;
 }

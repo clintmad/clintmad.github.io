@@ -1,6 +1,10 @@
 html, body {
   height: 100%;
 }
+.custom-icon {
+    padding-top:2%;
+    width: 25%;
+}
 .nav-button {
     color: white;
 }

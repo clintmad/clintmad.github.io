@@ -48,25 +48,14 @@ html, body {
     background-repeat: no-repeat;
 }
 .sec-contact{
+    margin-top: -5px;
     padding: 40px 40px 40px 40px;
     background-image: url("img/patriotic-flag.jpg");
     background-attachment:fixed;
     background-size: cover;
 }
 @media only screen and (max-device-width: 1024px) {
-    .flag{
-        background-attachment: scroll;
-    }
-    .sec-about {
-        background-attachment: scroll;
-    }
-    .sec-skills{
-        background-attachment: scroll;
-    }
-    .sec-projects{
-        background-attachment: scroll;
-    }
-    .sec-contact {
+    .parallax{
         background-attachment: scroll;
     }
 }

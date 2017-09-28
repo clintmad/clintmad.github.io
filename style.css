@@ -3,7 +3,7 @@ html, body {
 }
 .custom-icon {
     padding-top:2%;
-    width: 25%;
+    width: 15%;
 }
 .nav-button {
     color: white;
@@ -18,7 +18,6 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .sec-heading {    
     padding-top: 350px;
     height: 100%;
@@ -30,8 +29,7 @@ html, body {
     background-image: url("img/scorpion.jpg");
     background-attachment:fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 .sec-skills{
     padding: 40px 40px 100px 40px;
@@ -60,7 +58,6 @@ html, body {
     }
 }
 
-
 /*Font Styles*/
 
 .about-p{
@@ -87,8 +84,7 @@ html, body {
     font-family: 'Lobster Two', cursive;
     font-size: 20px;
 }
-.stroke{    
-    -webkit-text-stroke: 1px white;   
+.stroke{   
     text-shadow:
          2px 2px 0 #000,
         -1px -1px 0 #000,  
@@ -112,71 +108,7 @@ html, body {
     background-color:white;
     
 }
-/*.cardAbout{
-   background-color:white;
-    width: 300px;
-	height: 350px;
-    padding-top:20px;
-    padding-left:50px;
-    padding-right:50px;
-    border-radius:4px;
-    margin: 15px;
-    
-    box-shadow: 1px 1px 3px black;
-}
-
-.flip {	
-  -webkit-perspective: 1000;
-  -moz-perspective: 1000;
-  -o-perspective: 1000;
-  perspective: 1000;
-}
-
-.flip:hover .flipper,  
-.flip.hover .flipper {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-
-.flipper {
-	
-	-webkit-transition: 0.6s;
-	-webkit-transform-style: preserve-3d;
-
-	-moz-transition: 0.6s;
-	-moz-transform-style: preserve-3d;
-  
-    -o-transition: 0.6s;
-	-o-transform-style: preserve-3d;
-
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}*/
-
-/*.front, .back {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-	backface-visibility: hidden;
-	position: absolute;
-}
-
-.front {
-	z-index: 2;
-}
-
-.back {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}*/
-
-.cardProjects{
+.card-projects{
     background-color:rgba(225, 225, 225, 0.8);
     padding:20px;
     border-radius:4px;
@@ -184,65 +116,86 @@ html, body {
     box-shadow: 1px 1px 3px black;
     width: 600px;
 }
-.cardProjects:hover{
+.card-projects:hover{
     background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 33, 86, .8));
     color: white;
 }
-.cardContact{
+.card-contact{
     background-color:white;
     padding:20px;
     border-radius:4px;
     margin: 15px;
     box-shadow: 1px 1px 3px black;
-    width: 250px;
+    width: 100px;
 }
-
 
 /*Flex box*/
 
-.flexAbout{
+.flex-about{
     display:flex;
     flex-direction:row;
     justify-content:center;
 }
-.flexSkills{
+.flex-skills{
     display:flex;
     flex-direction:row;
     justify-content:center;
     flex-wrap: wrap;
 }
-.flexProjects{
+.flex-projects{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
 }
-.flexProjects h4{ 
+.flex-projects h4{ 
     background-color:rgba(225, 225, 225, 0.3);
     width: 85px;
     border: 1px solid white;
+    padding: 4px;
 }
-.flexContact{
+.flex-contact{
     display:flex;
     flex-direction:row;
     justify-content:center;
 }
-.flexWords{
+.flex-words{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.flexCard {
+.flex-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 /*Buttons*/
 
-.projectsButton{
+.projects-button{
     font-family:'Lobster', cursive;
     background-color:rgba(225, 225, 225, 0.3);
     width: 400px;
     border: 1px solid white;
-    color:black;
+    color:white;
+    padding: 4px;
+}
+.phone {
+    color: white;
+    text-shadow:
+    2px 2px 0 #00FF00,
+   -1px -1px 0 #00FF00,  
+   1px -1px 0 #00FF00,
+   -1px 1px 0 #00FF00,
+   1px 1px 0 #00FF00;
+}
+.mail {
+    color: #ffff00;
+}
+.github {
+    color: black;
+}
+.linkedin {
+    color: #0077B5;
 }
 
 

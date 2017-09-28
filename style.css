@@ -13,11 +13,12 @@ html, body {
 }
 .flag {
     height: 100%;
-    width:100%;
     background-image: url("img/patriotic-flag.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .sec-heading {    
     padding-top: 350px;
     height: 100%;
@@ -29,6 +30,7 @@ html, body {
     background-image: url("img/scorpion.jpg");
     background-attachment:fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .sec-skills{
@@ -36,18 +38,37 @@ html, body {
     background-image: url("img/patriotic-flag.jpg");
     background-attachment:fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .sec-projects{
     padding: 40px 40px 100px 40px;
     background-image: url("img/codebackground.jpg");
     background-attachment:fixed;
     background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .sec-contact{
     padding: 40px 40px 40px 40px;
     background-image: url("img/patriotic-flag.jpg");
     background-attachment:fixed;
     background-size: cover;
+}
+@media only screen and (max-device-width: 1024px) {
+    .flag{
+        background-attachment: scroll;
+    }
+    .sec-about {
+        background-attachment: scroll;
+    }
+    .sec-skills{
+        background-attachment: scroll;
+    }
+    .sec-projects{
+        background-attachment: scroll;
+    }
+    .sec-contact {
+        background-attachment: scroll;
+    }
 }
 
 
